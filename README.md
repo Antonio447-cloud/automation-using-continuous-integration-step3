@@ -1,6 +1,6 @@
 # Automation using Continuous Integration
 
-*Demonstration of how to enhance the website solution that we implemented on project: "load-balancer-solution-with-apache-step2" by using a free and open source automation server called Jenkins. We will use Jenkins to automate the deployment of source code changes from our GitHub repository to our NFS and Jenkins server. The source code used on this project was retrieved from darey.io.*
+*Demonstration of how to enhance the website solution that we implemented on project: "load-balancer-solution-with-apache-step2" by using a free and open source automation server called Jenkins. We will use Jenkins to automate the deployment of source code changes from our GitHub repository to our NFS server. The source code used on this project was retrieved from darey.io.*
 
 - *This project is a continuation of project: "devops-website-solution-with-nfs-lvm-step1".*
 
@@ -14,7 +14,7 @@ https://github.com/Antonio447-cloud/MEAN-stack-angular
 
 ## Outline
 
-- Enhance the architecture prepared in project: *"load-balancer-solution-with-apache-step2"* by adding a Jenkins server to our set up and configure a job to automatically deploy source code changes from our GitHub repository to our NFS and Jenkins server.
+- Enhance the architecture prepared in project: *"load-balancer-solution-with-apache-step2"* by adding a Jenkins server to our set up and configure a job to automatically deploy source code changes from our GitHub repository to our NFS server.
 
 ## Automation with Jenkins
 
