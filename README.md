@@ -1,10 +1,10 @@
-# Automation using Continuous Integration
+# Continuous Integration using Jenkins
 
-*Demonstration of how to enhance the website solution that we implemented on project: "load-balancer-solution-with-apache-step2" by using a free and open source automation server called Jenkins. We will use Jenkins to automate the deployment of source code changes from our GitHub repository to our NFS server. The source code used on this project was retrieved from darey.io.*
+*Demonstration of how to enhance the website solution that we implemented on project: "load-balancer-solution-using-apache-step2" by using a free and open source automation server called Jenkins. We will use Jenkins to automate the deployment of source code changes from our GitHub repository to our NFS server. The source code used on this project was retrieved from darey.io.*
 
-- *This project is a continuation of project: "devops-website-solution-with-nfs-lvm-step1".*
+- *This project is a continuation of project: "load-balancer-solution-using-apache-step2".*
 
-- *We will continue using "devops-website-solution-with-nfs-lvm-step1" EC2 instances to complete this project.*
+- *We will continue using "load-balancer-solution-using-apache-step2" EC2 instances to complete this project.*
 
 Instructions on how to launch and connect to your EC2 instance using an SSH client:
 
