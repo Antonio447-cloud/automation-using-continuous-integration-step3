@@ -7,30 +7,28 @@
 https://github.com/Antonio447-cloud/load-balancer-solution-using-apache-step2
 
 - *We will continue using "load-balancer-solution-using-apache-step2" EC2 instances to complete this project.*
-
-Instructions on how to launch and connect to your EC2 instance using an SSH client:
-
-https://github.com/Antonio447-cloud/MEAN-stack-angular
-
+-------------
     Happy learning!
 
 ## Outline
 
-- Enhance the architecture prepared in project: *"load-balancer-solution-with-apache-step2"* by adding a Jenkins server to our set up and configure a job to automatically deploy source code changes from our GitHub repository to our NFS server.
+- Adding a Jenkins server to our setup.
+
+- Configuring a job to automatically deploy source code changes from the GitHub repository to the NFS server.
 
 ## Automation with Jenkins
 
-On our previous project: "load-balancer-solution-with-apache-step2" we introduced the horizontal scalability concept, which allowed us to add new web servers to our "DevOps Solution Website".
+On our previous project: "load-balancer-solution-with-apache-step2" we introduced the horizontal scalability concept, which allowed us to add new web servers to our DevOps solution website.
 
-So, we have successfully deployed a set up with 2 web servers and also a load balancer to distribute traffic between them. Now, if it is just 2 or 3 web servers, it is not a big deal to configure them manually. However, imagine that you would need to repeat the same task over and over again adding dozens or even hundreds of servers.
+By now, we have successfully deployed a set up with 2 web servers and also a load balancer to distribute traffic between them. Now, if you need to deploy 2 or 3 web servers, it would not be a big deal to configure them manually. However, in cases where many servers need to be delpoyed and configured manually, it would be neither cost efficient nor practical to repeat the same task over and over again adding dozens or even hundreds of servers:
 
-DevOps is about agility, and speedy release of software and web solutions. So, one of the ways to guarantee fast and repeatable deployments is through "Automation" of routine tasks.
+- DevOps is about agility, and speedy release of software and web solutions. So, one of the ways to guarantee fast and repeatable deployments is through the Automation of routine tasks.
 
-In this project we are going to start automating part of our routine tasks with a free and open source automation server called Jenkins:
+So, that is why we are going to start automating part of our routine tasks with a free and open source automation server called Jenkins:
 
 - Jenkins is one of the most popular CI/CD tools.
 
-- Continuous integration (CI) is a software development strategy that increases the speed of development while ensuring the quality of the code that the  developer teams deploy. 
+- Continuous integration (CI) is a software development strategy that increases the speed of development while ensuring the quality of the code that the  developer team deploys. 
 
 - Developers continually commit code in small increments (at least daily, or even several times a day), which is then automatically built and tested before it is merged with our shared repository.
 
