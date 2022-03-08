@@ -56,7 +56,7 @@ So we run:
 
 `sudo apt install default-jdk-headless -y`
 
-    Copy the following command to your terminal:
+    Copy the following command on your terminal:
 
     wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
     sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > \
