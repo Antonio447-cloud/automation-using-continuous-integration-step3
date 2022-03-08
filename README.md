@@ -36,9 +36,7 @@ So, that is why we are going to start automating part of our routine tasks with 
 
 ## Forking a GitHub Repository
 
-One of the first things you will need to do, is fork the following GitHub repository into yours:
-
-https://github.com/Antonio447-cloud/tooling/tree/master
+One of the first things you will need to do, is fork the following GitHub repository into yours: https://github.com/Antonio447-cloud/tooling/tree/master
 
 Once you have forked the repository, your URL should look like this:
 
