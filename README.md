@@ -110,15 +110,15 @@ Then we go to our Jenkins web console and click "New Item". Then we create a new
 
 ![freestyle](./images/freestyle.png)
 
-To connect your GitHub repository, you will need to copy the HTTPS URL which you can get from your repository:
+To connect your GitHub repository to Jenkins, you will need to copy the HTTPS URL which you can get from your repository:
 
-![github](./images/github.png)
+![github](./images/http-github.png)
 
 - On the dashboard of our new freestyle project we click on "Configure". 
 
-- Then we go to the "Source Code Management" section and we choose "Git". 
+- Then we go to the Source Code Management section and we choose Git. 
 
-- We paste the HTTPS URL that we copied from our GitHub repository earlier on "Repository URL".
+- We paste the HTTPS URL that we copied from our GitHub repository earlier on Repository URL.
 
 - We provide our GitHub credentials (user/password) so Jenkins can access files in the repository:
 
