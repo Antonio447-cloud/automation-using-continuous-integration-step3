@@ -44,10 +44,6 @@ Once you have forked the repository, your URL should look like this:
 
 `https://github.com/your-username/tooling`
 
-**NOTE**: *Read about Continuous Integration, Continuous Delivery and Continuous Deployment.*
-
-Now, we will proceed to install and configure the Jenkins server.
-
 ## Installing and Configuring the Jenkins Server
 
 - First we create an EC2 instance based on Ubuntu Server 20.04 and name it "Jenkins-CI"
