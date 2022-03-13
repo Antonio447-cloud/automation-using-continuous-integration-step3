@@ -1,12 +1,12 @@
 # Continuous Integration using Jenkins
 
-*Demonstration of how to enhance the website solution that we implemented on project: "load-balancer-solution-using-apache-step2" by using a free and open source automation server called Jenkins. We will use Jenkins to automate the deployment of source code changes from our GitHub repository to our NFS server. The source code used on this project was retrieved from darey.io.*
+*Demonstration of how to enhance the website solution that we implemented on project: "load-balancer-solution-using-apache-project2" by using a free and open source automation server called Jenkins. We will use Jenkins to automate the deployment of source code changes from the GitHub repository to our NFS server. The source code used on this project was retrieved from darey.io.*
 
 - This project is a continuation of project: 
 
-https://github.com/Antonio447-cloud/load-balancer-solution-using-apache-step2
+https://github.com/Antonio447-cloud/load-balancer-solution-using-apache-project2
 
-- *We will continue using "load-balancer-solution-using-apache-step2" EC2 instances to complete this project.*
+- *We will continue using "load-balancer-solution-using-apache-project2" EC2 instances to complete this project.*
 -------------
     Happy learning!
 
@@ -18,7 +18,7 @@ https://github.com/Antonio447-cloud/load-balancer-solution-using-apache-step2
 
 ## Automation with Jenkins
 
-On our previous project: "load-balancer-solution-with-apache-step2" we introduced the horizontal scalability concept, which allowed us to add new web servers to our DevOps solution website.
+On our previous project: "load-balancer-solution-with-apache-project2" we introduced the horizontal scalability concept, which allowed us to add new web servers to our DevOps solution website.
 
 By now, we have successfully deployed a set up with 2 web servers and also a load balancer to distribute traffic between them. Now, if you need to deploy 2 or 3 web servers, it would not be a big deal to configure them manually. However, in cases where many servers need to be delpoyed and configured manually, it would be neither cost efficient nor practical to repeat the same task over and over again adding dozens or even hundreds of servers:
 
@@ -42,7 +42,7 @@ https://github.com/Antonio447-cloud/tooling/tree/master
 
 Once you have forked the repository, your URL should look like this:
 
-`https://github.com/your-username/tooling`
+    https://github.com/your-username/tooling
 
 ## Installing and Configuring the Jenkins Server
 
@@ -243,4 +243,4 @@ We can see the change that we previously made in our GitHub on the last line "Ch
 
 ![SSH](./images/SSH-terminal-success.png)
 
-Congrats!! You have just added a Jenkins server to your previous set up on project: "load-balancer-solution-with-apache-step2" and configured a job to automatically deploy source code changes from your GitHub repository to your NFS and Jenkins server!
+Congrats!! You have just added a Jenkins server to your previous set up on project: "load-balancer-solution-with-apache-project2" and configured a job to automatically deploy source code changes from your GitHub repository to your NFS and Jenkins server!
