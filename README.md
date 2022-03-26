@@ -1,6 +1,6 @@
 # Continuous Integration using Jenkins
 
-*Demonstration of how to enhance the website solution that we implemented on project: "load-balancer-solution-using-apache-project2" by using a free and open source automation server called Jenkins. We will use Jenkins to automate the deployment of source code changes from the GitHub repository to our NFS server. The source code used on this project was retrieved from darey.io.*
+*Demonstration of how to enhance the website solution that we implemented on project: "load-balancer-solution-using-apache-project2" by using a free and open source automation server called Jenkins. We will use Jenkins to automate the deployment of source code changes from the GitHub repository to the NFS server and Jenkins server. The source code used on this project was retrieved from darey.io.*
 
 - This project is a continuation of project: 
 
@@ -14,7 +14,7 @@ https://github.com/Antonio447-cloud/load-balancer-solution-using-apache-project2
 
 - Adding a Jenkins server to our setup.
 
-- Configuring a job to automatically deploy source code changes from the GitHub repository to the NFS server.
+- Configuring a job to automatically deploy source code changes from the GitHub repository to the NFS and Jenkins server.
 
 ## Automation with Jenkins
 
@@ -243,4 +243,4 @@ We can see the change that we previously made in our GitHub on the last line "Ch
 
 ![SSH](./images/SSH-terminal-success.png)
 
-Congrats!! You have just added a Jenkins server to your previous set up on project: "load-balancer-solution-with-apache-project2" and configured a job to automatically deploy source code changes from your GitHub repository to your NFS and Jenkins server!
+Congrats!! You have just added a Jenkins server to your previous set up on project: "load-balancer-solution-with-apache-project2" and configured a job to automatically deploy source code changes from your GitHub repository to your NFS server and Jenkins server!
