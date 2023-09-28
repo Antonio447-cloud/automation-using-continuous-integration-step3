@@ -1,6 +1,6 @@
 # Continuous Integration using Jenkins
 
-*Demonstration of how to enhance the website solution that we implemented on project: "load-balancer-solution-using-apache-project2" by using a free and open source automation server called Jenkins. We will use Jenkins to automate the deployment of source code changes from the GitHub repository to the NFS server and the Jenkins server.*
+*Demonstration of how to enhance the website solution that we implemented on project: "load-balancer-solution-using-apache-project2" by using a free and open source automation server called Jenkins. We will use Jenkins to automate the deployment of source code changes from the GitHub repository to the NFS and Jenkins server.*
 
 - This project is a continuation of project: 
 
